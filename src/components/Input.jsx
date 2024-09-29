@@ -23,7 +23,7 @@ export default function Input({ taskList, setTaskList }) {
           }}
         />
         <button
-          className="bg-violet-400 border rounded-lg mx-5 py-2 px-3 text-white hover:opacity-70 font-semibold"
+          className="bg-violet-500 border rounded-lg mx-5 py-2 px-3 text-white hover:bg-violet-600 font-semibold"
           onClick={addTaskHandler}
         >
           Add ToDo
